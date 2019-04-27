@@ -1,0 +1,329 @@
+.menu a {
+	text-decoration: none;
+}
+
+.menu li {
+	padding: 10px;
+	background: black;
+	text-align: center;
+	color: white;
+	list-style: none;
+	font-size: 23px;
+	font-family: broadway;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 20px;
+	padding: 10px;
+}
+
+
+.menu li:hover {
+	background: lemonchiffon;
+	border: 5px black solid;
+	color: black;
+	transition: all .4s ease-out; 
+}
+
+.header { 
+	background-color: cadetblue;
+}
+
+.mainarticle {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: black;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.article-left {
+	background-color: peru;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.article-right {
+	background-image: url(../images/giveaway.jpg);
+}
+
+.image {
+	background-image: url(../images/cardio.jpg);
+	padding: 50px;
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background-color: lightskyblue;
+	font:-size: 23px;
+	
+}
+
+.showcase {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: cornflowerblue;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.left {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.right {
+	font-size: 20px;
+	background-image: url(../images/giveaway2.jpg);
+	background-size: cover;
+}
+
+.hi {
+	background-image: url(../images/general.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: powderblue;
+	font:-size: 23px;
+	
+}
+
+.footer {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: lightcyan;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.hello {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.lol {
+	font-size: 20px;
+	background-image: url(../images/giveaway3.jpg);
+	background-size: cover;
+}
+
+.hope {
+	background-image: url(../images/neuro.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: powderblue;
+	font:-size: 23px;
+	
+}
+
+.artcle1 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: mediumturquoise;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.yow {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.haha {
+	font-size: 20px;
+	background-image: url(../images/giveaway4.jpg);
+	background-size: cover;
+}
+
+.yes {
+	background-image: url(../images/oral.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: lavenderblush;
+	font:-size: 23px;
+	
+}
+
+.artcle2 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: lightsteelblue;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.yow1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.haha1 {
+	font-size: 20px;
+	background-image: url(../images/giveaway5.jpg);
+	background-size: cover;
+}
+
+.yes1 {
+	background-image: url(../images/maxillofacial.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: lavenderblush;
+	font:-size: 23px;
+	
+}
+
+.artcle3 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: teal;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.yow2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.haha2 {
+	font-size: 20px;
+	background-image: url(../images/giveaway6.jpg);
+	background-size: cover;
+}
+
+.yes2 {
+	background-image: url(../images/otolo.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: lavenderblush;
+	font:-size: 23px;
+	
+}
+
+.artcle4 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: cadetblue;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.yow3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.haha3 {
+	font-size: 20px;
+	background-image: url(../images/giveaway7.jpg);
+	background-size: cover;
+}
+
+.yes3{
+	background-image: url(../images/paediatric.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: lavenderblush;
+	font:-size: 23px;
+	
+}
+
+
+.artcle5 {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: 3px;
+	padding: 40px;
+	background: darkslategray;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.yow4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.haha4 {
+	font-size: 20px;
+	background-image: url(../images/giveaway8.jpg);
+	background-size: cover;
+}
+
+.yes4 {
+	background-image: url(../images/plastic.jpg);
+	border: 10px beige;
+	background-repeat: no-repeat;
+	background-size: 475px;
+	background-position: center;
+}
+
+.text {
+	background: lavenderblush;
+	font:-size: 23px;
+	
+}
+
+
+
+
+
+
+
+
